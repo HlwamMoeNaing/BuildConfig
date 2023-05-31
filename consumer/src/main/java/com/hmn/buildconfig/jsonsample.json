@@ -1,0 +1,27 @@
+{
+  "code": 200,
+  "message": "Restaurant fetched successfully",
+  "data": [
+    {
+      "name": "Grab Cake",
+      "category": "Snack",
+      "delivery_price": 689,
+      "rating": 5.0,
+      "image_url": "https://firebasestorage.googleapis.com/v0/b/movies-streaming-a929a.appspot.com/o/pngs%2Fcake.png?alt=media&token=11cad067-3d1f-4e0a-906d-eea3eec09c0d&_gl=1*fo4ori*_ga*MTMyOTc0Mzc2MS4xNjg1NTM0MDEx*_ga_CW55HF8NVT*MTY4NTUzNDAxMC4xLjEuMTY4NTUzNDA3MC4wLjAuMA.."
+    },
+    {
+      "name": "Grab KFC",
+      "category": "Meat",
+      "delivery_price": 678,
+      "rating": 5.3,
+      "image_url": "https://firebasestorage.googleapis.com/v0/b/movies-streaming-a929a.appspot.com/o/pngs%2Fkfc.png?alt=media&token=a14caf03-55c2-462b-af53-c6ae739728ba&_gl=1*pwwxxf*_ga*MTMyOTc0Mzc2MS4xNjg1NTM0MDEx*_ga_CW55HF8NVT*MTY4NTUzNDAxMC4xLjEuMTY4NTUzNDExOS4wLjAuMA.."
+    },
+    {
+      "name": "Grab Sandwich",
+      "category": "Meat",
+      "delivery_price": 345,
+      "rating": 5.3,
+      "image_url": "https://firebasestorage.googleapis.com/v0/b/movies-streaming-a929a.appspot.com/o/pngs%2Fsandwich.png?alt=media&token=260a777c-0c6b-4600-9b8b-11c4ecc0ecf4&_gl=1*2c2kvg*_ga*MTMyOTc0Mzc2MS4xNjg1NTM0MDEx*_ga_CW55HF8NVT*MTY4NTUzNDAxMC4xLjEuMTY4NTUzNDEzNC4wLjAuMA.."
+    }
+  ]
+}
