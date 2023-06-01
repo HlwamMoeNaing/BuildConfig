@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1050748693899",
+    "project_id": "buildconfig-5a565",
+    "storage_bucket": "buildconfig-5a565.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1050748693899:android:4ec07e2bcf3bb2c5df538e",
+        "android_client_info": {
+          "package_name": "com.hmn.rider"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBo3c5YbEZnYZ1N68u2qsMJ4QVmc4RKbKc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
