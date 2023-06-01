@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">rider</string>
+    <string name="rider">Rider</string>
+    <string name="notiBody">You can directly hide Action Bar for a specific activity by specifying the NoActionBar theme in its activity tag in the manifest file. For this simply navigate to your projects\' root and open the Android manifest file and add a single line of code as mentioned below.</string>
 </resources>
