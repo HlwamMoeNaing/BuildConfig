@@ -15,10 +15,23 @@ class FCMService : FirebaseMessagingService() {
     override fun onMessageReceived(message: RemoteMessage) {
         super.onMessageReceived(message)
        // Log.d("@message",message.data)
+//        NotificationTestTwo.notifyMe(
+//            this,
+//            title = message.notification?.title?: "",
+//            body =message.notification?.body ?: "",
+//            pendingIntent = PendingIntent.getActivity(
+//                this,
+//                0,
+//                RestaurantDetailActivity.newIntent(this),
+//                PendingIntent.FLAG_IMMUTABLE
+//            )
+//        )
+
+        //with rest api noti
         NotificationTestTwo.notifyMe(
             this,
-            title = message.notification?.title?: "",
-            body =message.notification?.body ?: "",
+            title = message.data["title"]?: "",
+            body =message.data["body"] ?: "",
             pendingIntent = PendingIntent.getActivity(
                 this,
                 0,
